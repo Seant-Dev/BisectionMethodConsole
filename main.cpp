@@ -14,7 +14,7 @@ bool validacion_Flotantes(const std::string& str, double & result) {
 }
 
 double f(double x){
-    return pow(x, 2) + (2 * x) - 3;
+    return pow(x, 3) + 2 * pow(x, 2) - 1;
 }
 
 void bisecton_Method(double A, double B, double TOL){
